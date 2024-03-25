@@ -1,0 +1,142 @@
+* {
+  text-decoration: none;
+}
+
+
+a {
+  color: rgb(83, 89, 93);
+}
+
+.header__title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header--dark {
+  background-color: rgb(51, 57, 64);
+  color: rgb(236, 236, 236);
+  height: 5vh;
+  padding-top: 15px;
+  margin: -8px; /*hogy lehet eltünteni a headernél a fehér csíkot körülötte ha nem így?*/
+}
+
+.header__title {
+  display: inline;
+  font-size: 1.25rem;
+  padding: 25px;
+  position: relative;
+  top: 10px; /*így jó helyre rakva?*/
+}
+
+.header__search {
+  display: inline;
+  position: relative;
+  right: 70px;
+  bottom: 7%;
+}
+
+.search__input {
+  width: 10%;
+  float: right;
+  border-radius: 4px 0px 0px 4px;
+  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+  font-size: 1.2rem;
+  transition: border-color 0.15s ease-in-out;
+  border-right: 0;
+  border-color: none;
+}
+
+.search__input:focus {
+  border-color: rgb(128, 189, 255);
+}
+
+/*maga a kis kék szar a gombon*/
+.search__btn {
+  background-color: rgb(0, 123, 255);
+  float: right;
+  width: 2%;
+  height: 39px;
+  border-left: 0;
+  border-radius: 0 4px 4px 0px;
+}
+
+/*ikon effekt ha ráviszem az egeret*/
+.search__btn:hover {
+  background: #0b7dda;
+}
+
+/*ikonok színe*/
+.fa-solid {
+  color: rgb(83, 97, 92);
+}
+
+/*mié nem jó ha mellé rakom?*/
+.fa-gauge-high,
+.fa-magnifying-glass {
+  color: white;
+}
+
+.fa-chevron-right {
+  padding-left: 130px;
+} /*miért nem ugyanott van?*/
+
+.fa-bars {
+  position: relative;
+  left: 140px;
+  top: 5px;
+  color: rgb(149, 155, 160);
+}
+
+.fa-user,
+.fa-angle-down {
+  position: relative;
+  left: 1730px;
+  top: 6px;
+  color: rgb(150, 156, 161);
+}
+
+.main__nav {
+  background-color: rgb(33, 37, 41);
+  margin: -16px -8px -16px -8px;
+  width: 15%;
+  height: 100vh;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav__ul {
+  list-style-type: none;
+  color: rgb(86, 90, 96);
+  font-weight: bold;
+  font-size: 16px;
+  padding: 25px;
+}
+
+.nav_li--mains {
+  padding: 100px 0px 30px 0px;
+  font-size: 14px;
+}
+
+.nav_li--offside {
+  padding: 15px 0px 10px 0px;
+}
+
+#dashboard {
+  color: rgb(252, 252, 252);
+}
+
+
+.main__breadcrumb {
+  background-color:rgb(233, 236, 239);
+  border-radius: 0.25rem;
+  padding: 1rem 1.5rem;
+}
+
+.card__top {
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+.card__bottom {
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.main__card--blue{
+  background-color:rgb(0, 123, 255);
+}
